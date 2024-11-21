@@ -1,20 +1,20 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from 'react-router-dom';
 
-const Page1=()=>{
-    const navigate=useNavigate()
+const Page1 = () => {
+    const navigate = useNavigate();
 
-    const goPage2=()=>{
-        navigate('/page2')
-    }
+    const goPage2 = () => {
+        navigate('/page2');
+    };
 
-
-    return(
+    return (
         <>
-            <div>page1</div>
-            <button onClick={goPage2} className="Start">Get Start</button>
+            <div>pafff</div>
+            <button onClick={goPage2} className='Start'>
+                Get Start
+            </button>
         </>
-        
-    )
-}
+    );
+};
 
-export default Page1
+export default Page1;
